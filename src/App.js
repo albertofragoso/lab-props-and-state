@@ -36,9 +36,7 @@ class App extends Component {
         />
         <Form 
           handleInput={this.handleInput} 
-          inputOne={inputOne} 
-          inputTwo={inputTwo} 
-          inputThree={inputThree}
+          { ...form }
         />
       </div>
     )
